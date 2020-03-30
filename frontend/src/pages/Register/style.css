@@ -1,0 +1,83 @@
+.register-container{
+    width: 100%;
+    max-width: 100%;
+    
+    margin: 32px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container div {
+    max-width: 480px;
+}
+
+.register-container div h1 {
+    text-align: center;
+    color: #ff5E84;
+}
+
+.register-container div form .inputs-header {
+    width: 480px;
+    display: flex;
+}
+
+.register-container div form .inputs-header input + input {
+    margin-left: 4px;
+}
+
+.register-container div form input, textarea {
+    width: 464px;
+    border: 0;
+    border-radius: 8px;
+    margin: 12px auto;
+    height: 24px;
+    padding: 8px;
+    outline: 0;
+    font-size: 16px;
+}
+
+
+.register-container div form textarea {
+    height: 92px;
+}
+
+.register-container div form .buttons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.register-container div form .buttons button {
+    width: 120px;
+    height: 40px;
+
+    background-color: #ff5E84;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 8px;
+
+
+    transition: all 0.2;
+}
+
+.register-container div form .buttons button:hover{
+    background-color: rgb(236, 59, 100);
+}
+
+
+.register-container div form .buttons button#cancel {
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid #777;
+    color: #777;
+}
+
+.register-container div form .buttons button#cancel:hover {
+    background-color: rgb(224, 219, 219);
+}

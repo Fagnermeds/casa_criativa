@@ -1,0 +1,124 @@
+div.home-container {
+    width: 100%;
+    max-width: 1120px;
+    
+    height: 100vh;
+    margin: 64px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+section#left{
+    width: 100%;
+    max-width: 350px;
+    margin-right: 48px;
+    border: none;
+    margin-right: 32px;
+    
+}
+
+section#left main {
+    margin: 32px 0;
+    display: block;
+}
+
+section#left main p {
+    display: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+section#left div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section#left div button {
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    transition: opacity 0.2;
+}
+
+section#left div button:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
+section#left div button + button{
+    width: 120px;
+    height: 40px;
+
+    background-color: #ff5E84;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.2;
+}
+
+section#left div button + button:hover {
+    background-color: rgb(236, 59, 100);
+    text-decoration: none;
+}
+
+section#right {
+    width: 100%;
+    max-width: 480px;
+}
+
+section#right .home-idea {
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 6px 6px 16px -8px rgba(1, 1, 1, 0.16);
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.home-container section#right .home-idea img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+
+section#right .home-idea h3 {
+    margin: 0;
+}
+
+section#right .home-idea p {
+    margin: 8px 0;
+    color: #777;
+}
+
+section#right .home-idea div {
+    margin: 12px 0;
+}
+
+section#right .home-idea a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff5E84;
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+section#right .home-idea a:hover {
+    opacity: 0.6;
+    text-decoration: underline;
+}
+
